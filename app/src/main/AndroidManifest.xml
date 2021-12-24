@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.StudentDatabaseApp">
         <activity
+            android:name=".AddAcitivity"
+            android:exported="true"
+            android:label="Add Student"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
